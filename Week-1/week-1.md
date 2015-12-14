@@ -17,14 +17,14 @@ To create new objects first write a Class, then you can create instances of obje
 ## Creating and working with instances of the Class
 To create instances of the Dog class:
 
-    > a = Dog("Harry", "Collie")
-    > b = Dog("Henry", "Labrador")
+    >>> a = Dog("Harry", "Collie")
+    >>> b = Dog("Henry", "Labrador")
 
 Then attributes and methods can be accessed:
 
-    > a.name
-    > Harry
-    > b.breed
-    > Labrador
-    > a.bark()
-    > Woof Woof!
+    >>> a.name
+    Harry
+    >>> b.breed
+    Labrador
+    >>> a.bark()
+    Woof Woof!
